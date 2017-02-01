@@ -21,6 +21,7 @@ keystone.init({
 	'views': 'templates/views',
 	'view engine': 'html',
 	'custom engine': cons.nunjucks,
+	'views': ['templates', 'templates/views'],
 
 	'emails': 'templates/emails',
 
